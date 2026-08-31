@@ -5,26 +5,26 @@
 class DevPrune < Formula
   desc "Universal, lockfile-safe workspace pruner and background dependency cleaner"
   homepage "https://devprune.vkrishna04.me"
-  version "1.12.0"
+  version "1.14.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.12.0/dev-prune-v1.12.0-darwin-arm64.tar.gz"
-      sha256 "412d99107b9cccdd46d57f2276e2950e883710b9451a48437f5539fa524ef15a"
+      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.14.0/dev-prune-v1.14.0-darwin-arm64.tar.gz"
+      sha256 "f2e40dee4ed23b781a9d935cdba61bec5c45b581112d5fc7f57be11f1b44b075"
     else
-      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.12.0/dev-prune-v1.12.0-darwin-x64.tar.gz"
-      sha256 "3712f8a5cc0b50f12d4e42549a4d3428ecd24de5c37b746454923f9281e07bd1"
+      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.14.0/dev-prune-v1.14.0-darwin-x64.tar.gz"
+      sha256 "22ffddb65ed1eb68b7d631b2685427444c7a7d11069f7144426f08a23301b17f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.12.0/dev-prune-v1.12.0-linux-arm64.tar.gz"
-      sha256 "84aeabb0a244d3727ac9c455e805953c593616f6ae81c97e6ba55dd7990e4c36"
+      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.14.0/dev-prune-v1.14.0-linux-arm64.tar.gz"
+      sha256 "1b002e0f989141e8b6cb2780abc7797b62049a783d94f90399865fae8ab02fbc"
     else
-      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.12.0/dev-prune-v1.12.0-linux-x64.tar.gz"
-      sha256 "05d3f57777b136ff12a35489a0d29e970b0da93dc36eefcce5c5033acfbe4e3c"
+      url "https://github.com/Life-Experimentalist/dev-prune/releases/download/v1.14.0/dev-prune-v1.14.0-linux-x64.tar.gz"
+      sha256 "dcae458151db7669bcb012db63cd9063475c48e53ac81daf4d6d3c9ab29da532"
     end
   end
 
